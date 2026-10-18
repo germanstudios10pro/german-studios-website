@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="German Studios provides virtual assistance, data entry, spreadsheet management, online research, document formatting, file conversion, and business support services.">
+
+  <meta name="theme-color" content="#070b14">
+
+  <title>Virtual Assistance & Business Support | German Studios</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/animations.css">
+
+  <style>
+    /* HERO SECTION */
+
+    .service-hero {
+      padding: 110px 0 85px;
+      text-align: center;
+      background:
+        radial-gradient(
+          circle at top,
+          rgba(22, 131, 255, 0.15),
+          transparent 65%
+        ),
+        #070b14;
+    }
+
+    .breadcrumb {
+      margin-bottom: 25px;
+      color: #a7b4cc;
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: #52a8ff;
+      text-decoration: none;
+    }
+
+    .service-hero-icon {
+      font-size: 65px;
+      margin-bottom: 20px;
+    }
+
+    .service-hero h1 {
+      font-size: clamp(35px, 6vw, 65px);
+      line-height: 1.15;
+      margin-bottom: 25px;
+    }
+
+    .service-hero p {
+      max-width: 730px;
+      margin: 0 auto;
+      color: #a7b4cc;
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    /* SERVICES */
+
+    .service-list-section {
+      background: #0b1220;
+    }
+
+    .service-list-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .service-item {
+      padding: 28px;
+      border-radius: 18px;
+      background: #101a2c;
+      border: 1px solid rgba(100, 150, 220, 0.18);
+      transition: all 0.3s ease;
+    }
+
+    .service-item:hover {
+      transform: translateY(-5px);
+      border-color: #1683ff;
+      box-shadow: 0 15px 35px rgba(22, 131, 255, 0.1);
+    }
+
+    .service-item-icon {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .service-item h3 {
+      font-size: 19px;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+
+    .service-item p {
+      color: #a7b4cc;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    /* PORTFOLIO AND COMMUNITY */
+
+    .service-action-section {
+      background: #070b14;
+    }
+
+    .community-service-section {
+      background: #0b1220;
+    }
+
+    .service-action-panel {
+      padding: 45px 30px;
+      text-align: center;
+      background: #101a2c;
+      border: 1px solid rgba(100, 150, 220, 0.18);
+      border-radius: 20px;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .service-action-panel h2,
+    .service-action-panel h3 {
+      margin-bottom: 15px;
+    }
+
+    .service-action-panel p {
+      color: #a7b4cc;
+      line-height: 1.8;
+      max-width: 650px;
+      margin: 0 auto 20px;
+    }
+
+    .service-action-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    /* RESPONSIVE DESIGN */
+
+    @media (max-width: 900px) {
+      .service-list-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .service-hero {
+        padding: 75px 0 60px;
+      }
+
+      .service-hero p {
+        font-size: 15px;
+      }
+
+      .service-list-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-item {
+        padding: 25px;
+      }
+
+      .service-action-panel {
+        padding: 30px 20px;
+      }
+
+      .service-action-buttons {
+        flex-direction: column;
+      }
+
+      .service-action-buttons .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="navbar container">
+
+      <a href="../index.html" class="logo">
+        <span class="logo-icon">GS</span>
+        <span>GERMAN <strong>STUDIOS</strong></span>
+      </a>
+
+      <a href="../index.html#services" class="btn btn-outline">
+        ← Back to Services
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="service-hero">
+      <div class="container">
+
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a>
+          / Virtual Assistance & Business Support
+        </div>
+
+        <div class="service-hero-icon">💼</div>
+
+        <h1>
+          Virtual Assistance &
+          <span class="gradient-text">Business Support</span>
+        </h1>
+
+        <p>
+          Stay organised and productive with reliable
+          virtual assistance, administrative support,
+          data management, and professional business services.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section service-list-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">HOW WE CAN HELP</span>
+
+          <h2>
+            Our <span class="gradient-text">Business Support Services</span>
+          </h2>
+
+          <p>
+            Explore practical administrative and business
+            support solutions for entrepreneurs,
+            professionals, and organisations.
+          </p>
+        </div>
+
+        <div class="service-list-grid">
+
+          <div class="service-item">
+            <div class="service-item-icon">⌨️</div>
+            <h3>Data Entry</h3>
+            <p>
+              Accurate entry and organisation of
+              information into digital documents,
+              spreadsheets, and databases.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📊</div>
+            <h3>Spreadsheet Management</h3>
+            <p>
+              Create, format, and organise spreadsheets
+              using Excel and Google Sheets.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🔎</div>
+            <h3>Online Research</h3>
+            <p>
+              Research publicly available information
+              and organise findings into clear reports.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📄</div>
+            <h3>Document Formatting</h3>
+            <p>
+              Professionally format Word documents,
+              reports, letters, and business materials.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🔄</div>
+            <h3>File Conversion</h3>
+            <p>
+              Convert documents between common formats,
+              including PDF, Word, and other supported files.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🗂️</div>
+            <h3>File Organisation</h3>
+            <p>
+              Arrange digital documents and files
+              into organised folders and categories.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📧</div>
+            <h3>Email Assistance</h3>
+            <p>
+              Support professional email drafting,
+              inbox organisation, and business communication.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📅</div>
+            <h3>Schedule Organisation</h3>
+            <p>
+              Help organise calendars, appointments,
+              task lists, and work schedules.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📝</div>
+            <h3>Typing Services</h3>
+            <p>
+              Type and organise handwritten notes,
+              scanned documents, and written materials.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📋</div>
+            <h3>Business Reports</h3>
+            <p>
+              Prepare clear and professionally
+              formatted business reports.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📈</div>
+            <h3>Data Organisation</h3>
+            <p>
+              Clean, structure, and organise
+              information for easier analysis and use.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🛍️</div>
+            <h3>Product Listing Assistance</h3>
+            <p>
+              Help prepare and organise product information,
+              descriptions, and digital catalogues.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📚</div>
+            <h3>Research Summaries</h3>
+            <p>
+              Turn research findings into concise,
+              well-organised summaries and documents.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🤝</div>
+            <h3>Administrative Support</h3>
+            <p>
+              Assist with everyday administrative
+              and organisational business tasks.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">💡</div>
+            <h3>Custom Virtual Assistance</h3>
+            <p>
+              Need help with a specific business task?
+              Contact German Studios to discuss your needs.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section service-action-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">OUR WORK</span>
+
+          <h2>
+            Explore Our
+            <span class="gradient-text">Portfolio</span>
+          </h2>
+
+          <p>
+            Browse available examples of our
+            professional and creative work.
+          </p>
+        </div>
+
+        <div class="service-action-panel">
+
+          <div class="feature-icon">💼</div>
+
+          <h3>Business Support Portfolio</h3>
+
+          <p>
+            Visit our Telegram portfolio channel
+            to explore available project examples
+            and professional services.
+          </p>
+
+          <div class="service-action-buttons">
+
+            <a
+              href="https://t.me/+MtRQqehqMm0xNGQ0"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+            >
+              📁 View Portfolio
+            </a>
+
+            <a
+              href="https://t.me/GSpro1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
+              💼 Hire German Studios
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FREELANCERS COMMUNITY -->
+    <section class="section community-service-section">
+      <div class="container">
+
+        <div class="service-action-panel">
+
+          <div class="feature-icon">👥</div>
+
+          <h2>Join Our Freelancers Community</h2>
+
+          <p>
+            Connect with virtual assistants,
+            administrative professionals,
+            designers, and other freelancers.
+          </p>
+
+          <p>
+            Share your work, exchange ideas,
+            and explore collaboration opportunities.
+          </p>
+
+          <a
+            href="https://t.me/GermanStudios77"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Join Freelancers Community →
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <div class="footer

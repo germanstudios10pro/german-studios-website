@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Professional video editing, video clipping, motion graphics, podcast editing and video production services by German Studios.">
+
+  <meta name="theme-color" content="#070b14">
+
+  <title>Video & Motion Graphics | German Studios</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/animations.css">
+
+  <style>
+    /* SERVICE PAGE STYLES */
+
+    .service-hero {
+      padding: 110px 0 85px;
+      text-align: center;
+      background:
+        radial-gradient(
+          circle at top,
+          rgba(22, 131, 255, 0.15),
+          transparent 65%
+        ),
+        var(--bg-primary);
+    }
+
+    .breadcrumb {
+      margin-bottom: 25px;
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: var(--blue-light);
+    }
+
+    .service-hero-icon {
+      font-size: 65px;
+      margin-bottom: 20px;
+    }
+
+    .service-hero h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(35px, 6vw, 65px);
+      line-height: 1.15;
+      margin-bottom: 25px;
+    }
+
+    .service-hero p {
+      max-width: 730px;
+      margin: 0 auto;
+      color: var(--text-secondary);
+      font-size: 17px;
+    }
+
+    .service-list-section {
+      background: var(--bg-secondary);
+    }
+
+    .service-list-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .service-item {
+      padding: 28px;
+      border-radius: 18px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      transition: var(--transition);
+    }
+
+    .service-item:hover {
+      transform: translateY(-5px);
+      border-color: var(--blue-primary);
+    }
+
+    .service-item-icon {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .service-item h3 {
+      font-family: var(--font-heading);
+      font-size: 19px;
+      margin-bottom: 12px;
+    }
+
+    .service-item p {
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .service-action-section {
+      background: var(--bg-primary);
+    }
+
+    .service-action-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .community-service-section {
+      background: var(--bg-secondary);
+    }
+
+    @media (max-width: 900px) {
+      .service-list-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .service-hero {
+        padding: 75px 0 60px;
+      }
+
+      .service-hero p {
+        font-size: 15px;
+      }
+
+      .service-list-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-action-buttons {
+        flex-direction: column;
+      }
+
+      .service-action-buttons .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="navbar container">
+
+      <a href="../index.html" class="logo">
+        <span class="logo-icon">GS</span>
+        <span>GERMAN <strong>STUDIOS</strong></span>
+      </a>
+
+      <a href="../index.html#services" class="btn btn-outline">
+        ← Back to Services
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="service-hero">
+      <div class="container">
+
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a>
+          / Video & Motion Graphics
+        </div>
+
+        <div class="service-hero-icon">🎬</div>
+
+        <h1>
+          Video & <span class="gradient-text">Motion Graphics</span>
+        </h1>
+
+        <p>
+          Bring your ideas to life through engaging videos,
+          professional editing, creative animations,
+          and high-quality visual storytelling.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- VIDEO SERVICES -->
+    <section class="section service-list-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">WHAT WE OFFER</span>
+
+          <h2>
+            Our <span class="gradient-text">Video Services</span>
+          </h2>
+
+          <p>
+            Explore our video production and editing solutions
+            for creators, brands, and businesses.
+          </p>
+        </div>
+
+        <div class="service-list-grid">
+
+          <div class="service-item">
+            <div class="service-item-icon">🎞️</div>
+            <h3>Professional Video Editing</h3>
+            <p>
+              Editing videos with smooth transitions,
+              engaging visuals, and polished storytelling.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">✂️</div>
+            <h3>Video Clipping</h3>
+            <p>
+              Transform long videos into engaging short clips
+              for TikTok, YouTube Shorts, and Instagram Reels.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🎙️</div>
+            <h3>Podcast Clipping</h3>
+            <p>
+              Extract interesting podcast moments and
+              turn them into short promotional clips.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📱</div>
+            <h3>Short-Form Video Editing</h3>
+            <p>
+              Create engaging TikTok videos,
+              Instagram Reels, and YouTube Shorts.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">▶️</div>
+            <h3>YouTube Video Editing</h3>
+            <p>
+              Professional editing for YouTube creators,
+              educational videos, and entertainment content.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">✨</div>
+            <h3>Motion Graphics</h3>
+            <p>
+              Animated text, graphics, visual effects,
+              and creative motion designs.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📢</div>
+            <h3>Promotional Videos</h3>
+            <p>
+              Eye-catching promotional videos
+              for brands, products, and businesses.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🎨</div>
+            <h3>Animated Logos</h3>
+            <p>
+              Transform static logos into
+              professional animated brand introductions.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">💬</div>
+            <h3>Subtitles & Captions</h3>
+            <p>
+              Add accurate subtitles and engaging captions
+              to improve video accessibility.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🎥</div>
+            <h3>Video Enhancement</h3>
+            <p>
+              Improve video presentation through
+              colour correction, audio adjustments,
+              and visual improvements.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🚀</div>
+            <h3>Video Intros & Outros</h3>
+            <p>
+              Create professional introductions
+              and endings for

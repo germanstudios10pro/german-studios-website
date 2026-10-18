@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Professional website design, landing pages, portfolio websites, business websites, UI/UX design, and website redesign services by German Studios.">
+
+  <meta name="theme-color" content="#070b14">
+
+  <title>Websites & Digital Design | German Studios</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/animations.css">
+
+  <style>
+    .service-hero {
+      padding: 110px 0 85px;
+      text-align: center;
+      background:
+        radial-gradient(circle at top, rgba(22, 131, 255, 0.15), transparent 65%),
+        #070b14;
+    }
+
+    .breadcrumb {
+      margin-bottom: 25px;
+      color: #a7b4cc;
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: #52a8ff;
+      text-decoration: none;
+    }
+
+    .service-hero-icon {
+      font-size: 65px;
+      margin-bottom: 20px;
+    }
+
+    .service-hero h1 {
+      font-size: clamp(35px, 6vw, 65px);
+      line-height: 1.15;
+      margin-bottom: 25px;
+    }
+
+    .service-hero p {
+      max-width: 730px;
+      margin: 0 auto;
+      color: #a7b4cc;
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .service-list-section {
+      background: #0b1220;
+    }
+
+    .service-list-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .service-item {
+      padding: 28px;
+      border-radius: 18px;
+      background: #101a2c;
+      border: 1px solid rgba(100, 150, 220, 0.18);
+      transition: all 0.3s ease;
+    }
+
+    .service-item:hover {
+      transform: translateY(-5px);
+      border-color: #1683ff;
+      box-shadow: 0 15px 35px rgba(22, 131, 255, 0.1);
+    }
+
+    .service-item-icon {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .service-item h3 {
+      font-size: 19px;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+
+    .service-item p {
+      color: #a7b4cc;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .service-action-section {
+      background: #070b14;
+    }
+
+    .community-service-section {
+      background: #0b1220;
+    }
+
+    .service-action-panel {
+      padding: 45px 30px;
+      text-align: center;
+      background: #101a2c;
+      border: 1px solid rgba(100, 150, 220, 0.18);
+      border-radius: 20px;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .service-action-panel h2,
+    .service-action-panel h3 {
+      margin-bottom: 15px;
+    }
+
+    .service-action-panel p {
+      color: #a7b4cc;
+      line-height: 1.8;
+      max-width: 650px;
+      margin: 0 auto 20px;
+    }
+
+    .service-action-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 900px) {
+      .service-list-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .service-hero {
+        padding: 75px 0 60px;
+      }
+
+      .service-hero p {
+        font-size: 15px;
+      }
+
+      .service-list-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-item {
+        padding: 25px;
+      }
+
+      .service-action-panel {
+        padding: 30px 20px;
+      }
+
+      .service-action-buttons {
+        flex-direction: column;
+      }
+
+      .service-action-buttons .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="navbar container">
+
+      <a href="../index.html" class="logo">
+        <span class="logo-icon">GS</span>
+        <span>GERMAN <strong>STUDIOS</strong></span>
+      </a>
+
+      <a href="../index.html#services" class="btn btn-outline">
+        ← Back to Services
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="service-hero">
+      <div class="container">
+
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a>
+          / Websites & Digital Design
+        </div>
+
+        <div class="service-hero-icon">🌐</div>
+
+        <h1>
+          Websites &
+          <span class="gradient-text">Digital Design</span>
+        </h1>
+
+        <p>
+          Establish a strong online presence with modern,
+          responsive websites and professional digital design
+          solutions tailored to your brand and goals.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section service-list-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">WHAT WE BUILD</span>
+
+          <h2>
+            Our <span class="gradient-text">Website Services</span>
+          </h2>
+
+          <p>
+            Explore our website and digital design solutions
+            for businesses, entrepreneurs, creators,
+            and professionals.
+          </p>
+        </div>
+
+        <div class="service-list-grid">
+
+          <div class="service-item">
+            <div class="service-item-icon">🚀</div>
+            <h3>Landing Page Design</h3>
+            <p>
+              Attractive landing pages designed to introduce
+              products, services, and promotional campaigns.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">💼</div>
+            <h3>Portfolio Websites</h3>
+            <p>
+              Professional portfolio websites to showcase
+              your skills, projects, and creative work.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🏢</div>
+            <h3>Business Websites</h3>
+            <p>
+              Modern websites that present your company,
+              services, and contact information professionally.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🎨</div>
+            <h3>Website Redesign</h3>
+            <p>
+              Refresh outdated websites with improved
+              layouts, modern visuals, and better usability.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📱</div>
+            <h3>Responsive Web Design</h3>
+            <p>
+              Websites designed to work smoothly across
+              mobile phones, tablets, and desktop computers.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🧩</div>
+            <h3>UI Design</h3>
+            <p>
+              Clean and attractive user interfaces
+              for websites and digital products.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">✨</div>
+            <h3>UX Design</h3>
+            <p>
+              User-focused layouts and navigation
+              that make websites easier to explore.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🔧</div>
+            <h3>Website Maintenance</h3>
+            <p>
+              Website content updates, design adjustments,
+              and ongoing improvements.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">📝</div>
+            <h3>Website Content Updates</h3>
+            <p>
+              Update website text, images, service details,
+              and other content.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">⚡</div>
+            <h3>Website Performance Improvements</h3>
+            <p>
+              Improve page structure, loading efficiency,
+              and overall website experience.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">🔍</div>
+            <h3>Basic SEO Setup</h3>
+            <p>
+              Improve website structure, page titles,
+              and descriptions to support search visibility.
+            </p>
+          </div>
+
+          <div class="service-item">
+            <div class="service-item-icon">💡</div>
+            <h3>Custom Website Projects</h3>
+            <p>
+              Have a website idea?
+              Contact German Studios to discuss your
+              design and development requirements.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section service-action-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">OUR WORK</span>
+
+          <h2>
+            Explore Our
+            <span class="gradient-text">Portfolio</span>
+          </h2>
+
+          <p>
+            Browse available examples of our creative
+            and digital projects through Telegram.
+          </p>
+        </div>
+
+        <div class="service-action-panel">
+
+          <div class="feature-icon">🌐</div>
+
+          <h3>Website & Digital Design Portfolio</h3>
+
+          <p>
+            Visit our Telegram portfolio channel to explore
+            available project examples and creative work.
+          </p>
+
+          <div class="service-action-buttons">
+
+            <a
+              href="https://t.me/+MtRQqehqMm0xNGQ0"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+            >
+              🌐 View Portfolio
+            </a>
+
+            <a
+              href="https://t.me/GSpro1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
+              💼 Hire German Studios
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FREELANCERS COMMUNITY -->
+    <section class="section community-service-section">
+      <div class="container">
+
+        <div class="service-action-panel">
+
+          <div class="feature-icon">👥</div>
+
+          <h2>Join Our Freelancers Community</h2>
+
+          <p>
+            Connect with web designers, developers,
+            graphic designers, and other digital professionals.
+          </p>
+
+          <p>
+            Share your work, exchange ideas,
+            and discover collaboration opportunities.
+          </p>
+
+          <a
+            href="https://t.me/GermanStudios77"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Join Freelancers Community →
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+        <h3>
+          GERMAN
+          <span class="gradient-text">STUDIOS</span>
+        </h3>
+
+        <p>Creative Excellence. Digital Innovation.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#services">Services</a>
+        <a href="https://t.me/+MtRQqehqMm0xNGQ0">Portfolio</a>
+        <a href="https://t.me/GSpro1">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="currentYear">2026</span>
+          German Studios. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+
+</body>
+</html>

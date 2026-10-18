@@ -1,0 +1,132 @@
+/* ==========================================
+   GERMAN STUDIOS
+   ANIMATIONS & VISUAL EFFECTS
+   ========================================== */
+
+/* FADE IN */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* SLIDE UP */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* SOFT GLOW */
+@keyframes softGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(22, 131, 255, 0.12);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(22, 131, 255, 0.3);
+  }
+}
+
+/* FLOATING EFFECT */
+@keyframes floatEffect {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* HERO ANIMATIONS */
+.hero-badge {
+  animation: fadeIn 0.8s ease both;
+}
+
+.hero h1 {
+  animation: slideUp 0.9s ease 0.1s both;
+}
+
+.hero-description {
+  animation: slideUp 0.9s ease 0.2s both;
+}
+
+.hero-buttons {
+  animation: slideUp 0.9s ease 0.3s both;
+}
+
+.hero-highlights {
+  animation: fadeIn 1s ease 0.5s both;
+}
+
+/* SERVICE CARD EFFECTS */
+.service-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(22, 131, 255, 0.12);
+}
+
+.service-icon {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.12);
+}
+
+/* BUTTON EFFECTS */
+.btn {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+/* FEATURE PANEL EFFECTS */
+.feature-panel {
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.feature-panel:hover {
+  border-color: rgba(82, 182, 255, 0.35);
+  box-shadow: 0 15px 45px rgba(22, 131, 255, 0.08);
+}
+
+/* SMOOTH LINK EFFECTS */
+.footer-links a,
+.nav-links a {
+  transition: color 0.3s ease;
+}
+
+/* ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

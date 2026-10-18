@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="German Studios provides AI image generation, AI video creation, AI voiceovers, AI advertising, AI presentations and professional digital content services.">
+
+  <meta name="theme-color" content="#070b14">
+
+  <title>AI & Digital Content | German Studios</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/animations.css">
+
+  <style>
+    /* AI SERVICE PAGE DESIGN */
+
+    .service-hero {
+      padding: 110px 0 85px;
+      text-align: center;
+      background:
+        radial-gradient(
+          circle at top,
+          rgba(22, 131, 255, 0.15),
+          transparent 65%
+        ),
+        var(--bg-primary);
+    }
+
+    .breadcrumb {
+      margin-bottom: 25px;
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: var(--blue-light);
+    }
+
+    .service-hero-icon {
+      font-size: 65px;
+      margin-bottom: 20px;
+    }
+
+    .service-hero h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(35px, 6vw, 65px);
+      line-height: 1.15;
+      margin-bottom: 25px;
+    }
+
+    .service-hero p {
+      max-width: 730px;
+      margin: 0 auto;
+      color: var(--text-secondary);
+      font-size: 17px;
+    }
+
+    /* SERVICE GRID */
+
+    .service-list-section {
+      background: var(--bg-secondary);
+    }
+
+    .service-list-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .service-item {
+      padding: 28px;
+      border-radius: 18px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      transition: var(--transition);
+    }
+
+    .service-item:hover {
+      transform: translateY(-5px);
+      border-color: var(--blue-primary);
+      box-shadow: 0 15px 35px rgba(22, 131, 255, 0.1);
+    }
+
+    .service-item-icon {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .service-item h3 {
+      font-family: var(--font-heading);
+      font-size: 19px;
+      margin-bottom: 12px;
+    }
+
+    .service-item p {
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    /* ACTION SECTIONS */
+
+    .service-action-section {
+      background: var(--bg-primary);
+    }
+
+    .service-action-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .community-service-section {
+      background: var(--bg-secondary);
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 900px) {
+      .service-list-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .service-hero {
+        padding: 75px 0 60px;
+      }
+
+      .service-hero p {
+        font-size: 15px;
+      }
+
+      .service-list-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-action-buttons {
+        flex-direction: column;
+      }
+
+      .service-action-buttons .btn {
+        width: 100%;
+      }
+
+      .service-item {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="navbar container">
+
+      <a href="../index.html" class="logo">
+        <span class="logo-icon">GS</span>
+        <span>GERMAN <strong>STUDIOS</strong></span>
+      </a>
+
+      <a href="../index.html#services" class="btn btn-outline">
+        ← Back to Services
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="service-hero">
+      <div class="container">
+
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a>
+          / AI & Digital Content
+        </div>
+
+        <div class="service-hero-icon">🤖</div>
+
+        <h1>
+          AI & <span class="gradient-text">Digital Content</span>
+        </h1>
+
+        <p>
+          Explore the possibilities of artificial intelligence
+          through creative visuals, engaging videos,
+          professional voiceovers, digital advertisements,
+          and innovative content solutions.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- AI SERVICES -->
+    <section class="section service-list-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">OUR AI SOLUTIONS</span>
+
+          <h2>
+            Explore Our
+            <span class="gradient-text">AI Services</span>
+          </h2>
+
+          <p>
+            Discover AI-powered creative services designed
+            for businesses, creators, brands, and individuals.
+          </p>
+        </div>
+
+        <div class="service-list-grid">
+
+          <!-- SERVICE 1 -->
+          <div class="service-item">
+            <div class="service-item-icon">🖼️</div>
+            <h3>AI Image Generation</h3>
+            <p>
+              Create unique digital artwork, creative illustrations,
+              product visuals, and promotional images
+              using artificial intelligence.
+            </p>
+          </div>
+
+          <!-- SERVICE 2 -->
+          <div class="service-item">
+            <div class="service-item-icon">🎬</div>
+            <h3>AI Video Creation</h3>
+            <p>
+              Produce creative AI-generated videos,
+              promotional clips, animated scenes,
+              and engaging visual content.
+            </p>
+          </div>
+
+          <!-- SERVICE 3 -->
+          <div class="service-item">
+            <div class="service-item-icon">🎙️</div>
+            <h3>AI Voiceovers</h3>
+            <p>
+              Generate professional AI-assisted narration
+              for advertisements, presentations,
+              explainer videos, and digital content.
+            </p>
+          </div>
+
+          <!-- SERVICE 4 -->
+          <div class="service-item">
+            <div class="service-item-icon">📢</div>
+            <h3>AI-Powered Advertisements</h3>
+            <p>
+              Create engaging promotional materials,
+              advertising visuals, and digital marketing
+              content using AI-powered creative tools.
+            </p>
+          </div>
+
+          <!-- SERVICE 5 -->
+          <div class="service-item">
+            <div class="service-item-icon">📦</div>
+            <h3>AI Product Mockups</h3>
+            <p>
+              Showcase products through creative mockups,
+              promotional scenes, and professional
+              digital product presentations.
+            </p>
+          </div>
+
+          <!-- SERVICE 6 -->
+          <div class="service-item">
+            <div class="service-item-icon">✍️</div>
+            <h3>AI-Assisted Content Writing</h3>
+            <p>
+              Develop creative content, marketing copy,
+              product descriptions, captions,
+              and written materials with AI assistance.
+            </p>
+          </div>
+
+          <!-- SERVICE 7 -->
+          <div class="service-item">
+            <div class="service-item-icon">📊</div>
+            <h3>AI Presentation Creation</h3>
+            <p>
+              Design visually appealing presentations,
+              educational slides, business pitch decks,
+              and professional digital presentations.
+            </p>
+          </div>
+
+          <!-- SERVICE 8 -->
+          <div class="service-item">
+            <div class="service-item-icon">👤</div>
+            <h3>AI Character Design</h3>
+            <p>
+              Create original digital characters,
+              creative avatars, illustrated personalities,
+              and visual concepts for projects.
+            </p>
+          </div>
+
+          <!-- SERVICE 9 -->
+          <div class="service-item">
+            <div class="service-item-icon">✨</div>
+            <h3>AI Content Enhancement</h3>
+            <p>
+              Improve existing images, written content,
+              creative materials, and digital projects
+              with AI-assisted enhancement.
+            </p>
+          </div>
+
+          <!-- SERVICE 10 -->
+          <div class="service-item">
+            <div class="service-item-icon">💡</div>
+            <h3>Custom AI Creative Projects</h3>
+            <p>
+              Need something unique?
+              Discuss your creative idea with German Studios
+              and explore suitable AI-powered solutions.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section service-action-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">OUR CREATIVE PORTFOLIO</span>
+
+          <h2>
+            Discover Our
+            <span class="gradient-text">AI Creations</span>
+          </h2>
+
+          <p>
+            Explore examples of digital creative work,
+            AI-generated content, and customer feedback
+            through our Telegram portfolio.
+          </p>
+        </div>
+
+        <div class="feature-panel">
+
+          <div class="feature-icon">🤖</div>
+
+          <h3>Explore Our AI Portfolio</h3>
+
+          <p>
+            Visit our Telegram portfolio channel
+            to explore creative examples and shared projects.
+          </p>
+
+          <div class="service-action-buttons">
+
+            <a
+              href="https://t.me/+MtRQqehqMm0xNGQ0"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+            >
+              🎨 View AI Portfolio
+            </a>
+
+            <a
+              href="https://t.me/GSpro1"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
+              💼 Hire German Studios
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY -->
+    <section class="section community-service-section">
+      <div class="container">
+
+        <div class="feature-panel community-panel">
+
+          <div class="feature-icon">👥</div>
+
+          <h2>Join Our Creative Community</h2>
+
+          <p>
+            Connect with AI creators, designers,
+            video editors, digital artists,
+            and other freelancers.
+          </p>
+
+          <p>
+            Share your work, exchange ideas,
+            meet other professionals,
+            and explore collaboration opportunities.
+          </p>
+
+          <a
+            href="https://t.me/GermanStudios77"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Join Freelancers Community →
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">START YOUR PROJECT</span>
+
+          <h2>
+            Have an
+            <span class="gradient-text">AI Project in Mind?</span>
+          </h2>
+
+          <p>
+            Contact
